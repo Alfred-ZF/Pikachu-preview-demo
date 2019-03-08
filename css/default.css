@@ -26,3 +26,25 @@ body{
   height: 100%;
 }
 
+.actions{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.actions button{
+  padding: 6px 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.actions button.active{
+  box-shadow:  1px 1px 3px rgba(0, 0, 0, 0.8);
+  background: #ddd;
+}
+.actions button:focus{
+  outline: none;
+}
